@@ -15,6 +15,15 @@
         android:theme="@style/Theme.Terra"
         tools:targetApi="31">
         <activity
+            android:name=".AuthenticationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegisterScreen"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginScreen"
+            android:exported="false" />
+        <activity
             android:name=".AddFriendScreen"
             android:exported="false" />
         <activity
